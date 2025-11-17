@@ -13,3 +13,6 @@ print(titolo1)
 
 #lleggere tutte le altre righe del file e stamparle
 #usare un ciclo for pythonico (NO RANGE)
+
+def main():
+    pass

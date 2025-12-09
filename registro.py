@@ -19,13 +19,7 @@ def leggi_registro(nome_file):
 
 def calcola_media(voti):
     """Restituisce la media di una lista di voti."""
-    tot = 0
-    for voto in voti:
-        len_voti = len(voti)
-        tot += voto
-    media = tot/len_voti
-    return media
-
+    return sum(voti)/len(voti)
 
 def classifica(registro):
     """

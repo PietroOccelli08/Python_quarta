@@ -3,5 +3,6 @@
 
 # range è una funzione python range([START], STOP, [GAP])
 # START e GAP sono facoltativi, un parametro facoltativosi mette tra parentesi quadre nella documentazione
-for i in range(4): 
-    print(i)
+n = 4
+for i in range(n): 
+    print("CIAO")

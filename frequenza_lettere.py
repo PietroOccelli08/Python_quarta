@@ -19,7 +19,9 @@ def stampa_frequenze(dizionario, percentuali, alfabeto):
 
 def calcola_percentuale(dizionario, tot_lettere):
     """
-    Todo
+    La funzione clacola le percentuali rispetto al totale di igni lettera in base alla sua occorrenza
+    Input:
+        
     """
     #Calcoliamo percentuali usando una COMPREHENSION
     percentuali = {lettera:(dizionario[lettera] * 100)/tot_lettere for lettera in dizionario}

@@ -8,7 +8,7 @@ def leggi_registro(nome_file):
     registro_voti = {}
 
     for riga in righe:
-        campi = riga[:-1].split(";")
+        campi = riga.split(";")
         listavoti = []
         for voto in campi[1:]:
             listavoti.append(float(voto))
@@ -28,7 +28,7 @@ def classifica(registro):
     """
     lista_classifica = []
     for nome in registro:
-        media = registro[nome]
+        media = registro[nome]   #media
         tupla = (media, nome)
         lista_classifica.append(tupla)
     lista_ordinata = sorted(lista_classifica, reverse=True)

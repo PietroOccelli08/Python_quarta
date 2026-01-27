@@ -1,0 +1,22 @@
+salta -20 100
+indietro 100
+sinistra 90
+indietro 100
+sinistra 90
+indietro 100
+sinistra 90
+indietro 50
+sinistra 90
+indietro 50
+salta 20 0
+colore rosso
+sinistra 90
+avanti 100
+destra 90 
+avanti 75
+destra 90
+avanti 50
+destra 90
+avanti 75
+destra 45
+indietro 90.1387
